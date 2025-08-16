@@ -1,7 +1,7 @@
 langchain
 flask
 openai
-chromadb.utils.embedding_functions
+chromadb
 langchain_pinecone
 pinecone
 langchain_openai
