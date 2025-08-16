@@ -6,3 +6,4 @@ langchain_pinecone
 pinecone
 langchain_openai
 langchain
+soundfile
