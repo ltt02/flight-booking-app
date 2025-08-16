@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat với LLM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        #chat-box {
+            border: 1px solid #ddd;
+            padding: 10px;
+            height: 400px;
+            overflow-y: scroll;
+            background: #f9f9f9;
+            margin-bottom: 10px;
+        }
+        .user-msg {
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .bot-msg {
+            color: green;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat với LLM</h1>
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Nhập tin nhắn..." style="width:80%">
+    <button onclick="sendMessage()">Gửi</button>
+    <a href="{{ url_for('index') }}">Quay lại</a>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById('user-input');
+            const message = input.value.trim();
+            if (!message) return;
+
+            appendMessage('user-msg', message);
+            input.value = '';
+            
+            const resp = await fetch('/chat_api', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({message})
+            });
+            const data = await resp.json();
+            appendMessage('bot-msg', data.response);
+        }
+
+        function appendMessage(className, message) {
+            const chatBox = document.getElementById('chat-box');
+            const msgDiv = document.createElement('div');
+            msgDiv.className = className;
+            msgDiv.textContent = message;
+            chatBox.appendChild(msgDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>

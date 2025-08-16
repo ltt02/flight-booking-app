@@ -1,0 +1,239 @@
+{
+  "flights": [
+
+    
+    {
+      "flight_id": "VN001",
+      "departure": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-02T08:00:00"
+      },
+      "arrival": {
+        "city": "TP. Hồ Chí Minh",
+        "airport": "Sân bay Tân Sơn Nhất",
+        "time": "2025-08-02T10:30:00"
+      },
+      "price": {
+        "economy": 1500000,
+        "business": 3000000
+      },
+      "available_seats": {
+        "economy": 50,
+        "business": 10
+      },
+      "services": [
+        "Đồ ăn",
+        "Đồ uống",
+        "Wi-Fi"
+      ],
+      "desc": "Chuyến bay VN001 khởi hành từ Hà Nội (Sân bay Nội Bài) lúc 08:00 ngày 02/08/2025 và hạ cánh tại TP. Hồ Chí Minh (Sân bay Tân Sơn Nhất) lúc 10:30. Giá vé phổ thông: 1,500,000 VND (50 chỗ), thương gia: 3,000,000 VND (10 chỗ). Dịch vụ: Đồ ăn, Đồ uống, Wi-Fi."
+    },
+    {
+      "flight_id": "VN002",
+      "departure": {
+        "city": "Đà Nẵng",
+        "airport": "Sân bay Đà Nẵng",
+        "time": "2025-08-02T09:00:00"
+      },
+      "arrival": {
+        "city": "Nha Trang",
+        "airport": "Sân bay Cam Ranh",
+        "time": "2025-08-02T10:30:00"
+      },
+      "price": {
+        "economy": 1200000,
+        "business": 2500000
+      },
+      "available_seats": {
+        "economy": 30,
+        "business": 5
+      },
+      "services": [
+        "Đồ ăn",
+        "Đồ uống"
+      ],
+      "desc": "Chuyến bay VN002 khởi hành từ Đà Nẵng (Sân bay Đà Nẵng) lúc 09:00 ngày 02/08/2025 và hạ cánh tại Nha Trang (Sân bay Cam Ranh) lúc 10:30. Giá vé phổ thông: 1,200,000 VND (30 chỗ), thương gia: 2,500,000 VND (5 chỗ). Dịch vụ: Đồ ăn, Đồ uống."
+    },
+    {
+      "flight_id": "VN003",
+      "departure": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-03T15:00:00"
+      },
+      "arrival": {
+        "city": "Đà Nẵng",
+        "airport": "Sân bay Đà Nẵng",
+        "time": "2025-08-03T17:00:00"
+      },
+      "price": {
+        "economy": 1400000,
+        "business": 2800000
+      },
+      "available_seats": {
+        "economy": 40,
+        "business": 8
+      },
+      "services": [
+        "Đồ ăn",
+        "Wi-Fi"
+      ],
+      "desc": "Chuyến bay VN003 khởi hành từ Hà Nội (Sân bay Nội Bài) lúc 15:00 ngày 03/08/2025 và hạ cánh tại Đà Nẵng (Sân bay Đà Nẵng) lúc 17:00. Giá vé phổ thông: 1,400,000 VND (40 chỗ), thương gia: 2,800,000 VND (8 chỗ). Dịch vụ: Đồ ăn, Wi-Fi."
+    },
+    {
+      "flight_id": "VN004",
+      "departure": {
+        "city": "TP. Hồ Chí Minh",
+        "airport": "Sân bay Tân Sơn Nhất",
+        "time": "2025-08-04T14:00:00"
+      },
+      "arrival": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-04T16:30:00"
+      },
+      "price": {
+        "economy": 1600000,
+        "business": 3200000
+      },
+      "available_seats": {
+        "economy": 45,
+        "business": 12
+      },
+      "services": [
+        "Đồ ăn",
+        "Đồ uống",
+        "Wi-Fi"
+      ],
+      "desc": "Chuyến bay VN004 khởi hành từ TP. Hồ Chí Minh (Sân bay Tân Sơn Nhất) lúc 14:00 ngày 04/08/2025 và hạ cánh tại Hà Nội (Sân bay Nội Bài) lúc 16:30. Giá vé phổ thông: 1,600,000 VND (45 chỗ), thương gia: 3,200,000 VND (12 chỗ). Dịch vụ: Đồ ăn, Đồ uống, Wi-Fi."
+    },
+    {
+      "flight_id": "VN005",
+      "departure": {
+        "city": "Nha Trang",
+        "airport": "Sân bay Cam Ranh",
+        "time": "2025-08-05T10:00:00"
+      },
+      "arrival": {
+        "city": "Đà Nẵng",
+        "airport": "Sân bay Đà Nẵng",
+        "time": "2025-08-05T11:30:00"
+      },
+      "price": {
+        "economy": 1100000,
+        "business": 2400000
+      },
+      "available_seats": {
+        "economy": 35,
+        "business": 7
+      },
+      "services": [
+        "Đồ ăn"
+      ],
+      "desc": "Chuyến bay VN005 khởi hành từ Nha Trang (Sân bay Cam Ranh) lúc 10:00 ngày 05/08/2025 và hạ cánh tại Đà Nẵng (Sân bay Đà Nẵng) lúc 11:30. Giá vé phổ thông: 1,100,000 VND (35 chỗ), thương gia: 2,400,000 VND (7 chỗ). Dịch vụ: Đồ ăn."
+    },
+    {
+      "flight_id": "VN006",
+      "departure": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-06T07:00:00"
+      },
+      "arrival": {
+        "city": "Đà Nẵng",
+        "airport": "Sân bay Đà Nẵng",
+        "time": "2025-08-06T09:00:00"
+      },
+      "price": {
+        "economy": 1300000,
+        "business": 2700000
+      },
+      "available_seats": {
+        "economy": 45,
+        "business": 6
+      },
+      "services": [
+        "Đồ ăn",
+        "Wi-Fi"
+      ],
+      "desc": "Chuyến bay VN006 khởi hành từ Hà Nội (Sân bay Nội Bài) lúc 07:00 ngày 06/08/2025 và hạ cánh tại Đà Nẵng (Sân bay Đà Nẵng) lúc 09:00. Vé phổ thông: 1,300,000 VND (còn 45 chỗ), vé thương gia: 2,700,000 VND (còn 6 chỗ). Dịch vụ bao gồm: Đồ ăn, Wi-Fi."
+    },
+    {
+      "flight_id": "VN007",
+      "departure": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-06T12:00:00"
+      },
+      "arrival": {
+        "city": "Vinh",
+        "airport": "Sân bay Vinh",
+        "time": "2025-08-06T13:30:00"
+      },
+      "price": {
+        "economy": 900000,
+        "business": 1800000
+      },
+      "available_seats": {
+        "economy": 40,
+        "business": 5
+      },
+      "services": [
+        "Đồ uống"
+      ],
+      "desc": "Chuyến bay VN007 khởi hành từ Hà Nội (Sân bay Nội Bài) lúc 12:00 ngày 06/08/2025 và hạ cánh tại Vinh (Sân bay Vinh) lúc 13:30. Vé phổ thông: 900,000 VND (còn 40 chỗ), vé thương gia: 1,800,000 VND (còn 5 chỗ). Dịch vụ bao gồm: Đồ uống."
+    },
+    {
+      "flight_id": "VN008",
+      "departure": {
+        "city": "Hải Phòng",
+        "airport": "Sân bay Cát Bi",
+        "time": "2025-08-07T08:30:00"
+      },
+      "arrival": {
+        "city": "Hà Nội",
+        "airport": "Sân bay Nội Bài",
+        "time": "2025-08-07T09:15:00"
+      },
+      "price": {
+        "economy": 700000,
+        "business": 1500000
+      },
+      "available_seats": {
+        "economy": 35,
+        "business": 4
+      },
+      "services": [
+        "Wi-Fi"
+      ],
+      "desc": "Chuyến bay VN008 khởi hành từ Hải Phòng (Sân bay Cát Bi) lúc 08:30 ngày 07/08/2025 và hạ cánh tại Hà Nội (Sân bay Nội Bài) lúc 09:15. Vé phổ thông: 700,000 VND (còn 35 chỗ), vé thương gia: 1,500,000 VND (còn 4 chỗ). Dịch vụ bao gồm: Wi-Fi."
+    },
+    {
+      "flight_id": "VN009",
+      "departure": {
+        "city": "Đà Lạt",
+        "airport": "Sân bay Liên Khương",
+        "time": "2025-08-07T14:00:00"
+      },
+      "arrival": {
+        "city": "TP. Hồ Chí Minh",
+        "airport": "Sân bay Tân Sơn Nhất",
+        "time": "2025-08-07T15:10:00"
+      },
+      "price": {
+        "economy": 1000000,
+        "business": 2200000
+      },
+      "available_seats": {
+        "economy": 40,
+        "business": 6
+      },
+      "services": [
+        "Đồ ăn",
+        "Đồ uống"
+      ],
+      "desc": "Chuyến bay VN009 khởi hành từ Đà Lạt (Sân bay Liên Khương) lúc 14:00 ngày 07/08/2025 và hạ cánh tại TP. Hồ Chí Minh (Sân bay Tân Sơn Nhất) lúc 15:10. Vé phổ thông: 1,000,000 VND (còn 40 chỗ), vé thương gia: 2,200,000 VND (còn 6 chỗ). Dịch vụ bao gồm: Đồ ăn, Đồ uống."
+    }
+  ]
+}

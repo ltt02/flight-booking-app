@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug app.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/flight_booking_app/app.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/flight_booking_app/.env",
+            "args": [],   
+            "env": {      
+                "FLASK_ENV": "development"
+            }
+        }
+    ]
+}
