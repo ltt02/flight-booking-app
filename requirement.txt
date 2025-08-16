@@ -1,8 +1,8 @@
-langchain.chains
+langchain
 flask
 openai
 chromadb.utils.embedding_functions
 langchain_pinecone
 pinecone
 langchain_openai
-langchain.memory
+langchain
