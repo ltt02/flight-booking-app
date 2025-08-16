@@ -7,3 +7,4 @@ pinecone
 langchain_openai
 langchain
 soundfile
+transformers
